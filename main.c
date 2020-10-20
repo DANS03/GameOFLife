@@ -1,13 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%i", i);
+    }
 
-
-    for (int i = 0; i < 10;i++){
-
-        printf("%i",i);
-    }    
-
-
-return 0;
+    return 0;
 }
